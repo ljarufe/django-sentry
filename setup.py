@@ -7,7 +7,7 @@ setup(
     version='.'.join(map(str, __import__('sentry').__version__)),
     author='David Cramer',
     author_email='dcramer@gmail.com',
-    url='http://github.com/dcramer/django-sentry',
+    url='https://github.com/ljarufe/django-sentry.git',
     description = 'Exception Logging to a Database in Django',
     packages=find_packages(),
     zip_safe=False,
